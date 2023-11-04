@@ -1,0 +1,112 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/Background.jpeg);
+    background-size: cover;
+    width: 100%;
+    color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 8px;
+}
+
+nav img{
+    width: 200px;
+    height: 130px;
+    cursor: pointer;
+    padding-top: -90px;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 70px;
+    white-space: nowrap;
+    color: whitesmoke;
+}
+
+.b1{
+    margin-left: 330px;
+    padding: 8px 30px;
+    border: 3px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.b2{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 11px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+hr{
+    margin-top: -10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+}
+
+h4{
+    font-size: 25px;
+    margin-left: 600px;
+    margin-top: -20px;
+}
+
+ table{
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .t1{
+    font-size: 40px;
+    color: yellowgreen;
+ }
+
+ .t2{
+    padding: 5px 50px;
+ }
+
+ input{
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+ }
+
+ .b3{
+    margin-left: 100px;
+    margin-top: 40px;
+    padding: 11px 25px;
+    border-radius: 20px;
+    border: #db0001;
+    background-color: #db0001;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+ }
+
+ .b4{
+    margin-top: 40px;
+    padding: 11px 40px;
+    border-radius: 20px;
+    border: white solid 3px;
+    background: transparent;
+    color: white;
+    font-family: 600;
+    cursor: pointer;
+ }

@@ -1,0 +1,164 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/Background.jpeg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    height: 100px;
+    background-color: black;
+}
+
+nav img{
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+nav p{
+    color: white;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+section{
+    height: 50vh;
+    width: 100%;
+}
+
+/*------------------------Movies---------------------*/
+
+.m{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0px 20px;
+    color: white;
+}
+
+.m h1{
+    font-size: 40px;
+    color: rgb(79, 240, 10);
+    padding-left: 50px;
+}
+
+.mc{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.mi h3{
+    font-size: 15px;
+    font-family: 500;
+    margin-top: 10px;
+    padding-left: 40px;
+    text-align: center;
+}
+
+.mi img{
+    height: 250px;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+    border-radius: 10px;
+    padding-left: 40px;
+}
+
+.mi img:hover{
+    transform: scale(1.1);
+}
+
+/*---------------------Web Series----------------------*/
+
+.wb{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0px 20px;
+    color: white;
+}
+
+.wb h1{
+    font-size: 40px;
+    color: rgb(79, 240, 10);
+    padding-left: 50px;
+}
+
+.wbc{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.wbi h3{
+    font-size: 15px;
+    font-family: 500;
+    margin-top: 10px;
+    padding-left: 40px;
+    text-align: center;
+}
+
+.wbi img{
+    height: 250px;
+    width: 200px;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+    border-radius: 10px;
+    padding-left: 40px;
+}
+
+.wbi img:hover{
+    transform: scale(1.1);
+}
+
+/*----------------------Anime------------------------*/
+
+.anime{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0px 20px;
+    color: white;
+}
+
+.anime h1{
+    font-size: 40px;
+    color: rgb(79, 240, 10);
+    padding-left: 50px;
+}
+
+.anime-c{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.animei h3{
+    font-size: 15px;
+    font-family: 500;
+    margin-top: 10px;
+    padding-left: 40px;
+    text-align: center;
+}
+
+.animei img{
+    height: 250px;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+    border-radius: 10px;
+    padding-left: 40px;
+}
+
+.animei img:hover{
+    transform: scale(1.1);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+

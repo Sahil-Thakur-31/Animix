@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Animix</title>
+        <link rel="stylesheet" href="passcss.css">
+        <link rel="icon" href="images/logo-animix.ico">
+        <script type="text/javascript">
+            function authp()
+            {
+            let pass1=document.getElementById("pass").value;
+
+            if(pass1=="admin123")
+               { 
+                alert("Login Successful");
+                window.open("home.html")
+               }
+            else{
+                alert("Wrong Password")
+                
+
+            }
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <nav>
+                <img src="images/logo-animix.ico" alt="Logo" class="logo">
+            </nav>
+        </div>
+        <hr>
+        <div class="content">
+            <div class="text">
+                
+                <p class="h1"><b>Welcome !<br>
+                Joining Animix is easy.</b>
+                </p>
+                <p class="h3">
+                    Enter your password and you'll be watching in no time.
+                </p>
+                
+
+        
+            <div class="password">
+                <form class="pass1">
+                    <input type="password" placeholder="Enter Your Password..." id="pass" name="pass" minlength="6" required><br><br>
+                    <a href="resetpass.html" class="l1">Forgot Your Password</a><br><br>
+                    <button type="Submit" onclick="authp()">Next</button>
+                </form>    
+            </div>
+        </div>
+
+    </body>
+</html>
