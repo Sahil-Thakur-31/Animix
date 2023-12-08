@@ -280,7 +280,7 @@ input[type="radio"]{
         margin: unset;
         padding: unset;
         margin-top: 30px;
-        margin-left: 70%;
+        margin-left: 20%;
         height: 30px;
         width: 70px;
         font-size: 10px;
@@ -289,13 +289,13 @@ input[type="radio"]{
 
     .gh{
         height: 30px;
-        width: 110px;
+        width: 90px;
         font-size: 10px;
         margin: unset;
         align-self: flex-end;
         padding: unset;
         margin-top: 30px;
-        margin-left: 50%;
+        margin-left: 20%;
     }
 
     .header-content{
@@ -313,9 +313,14 @@ input[type="radio"]{
         padding-top: 18px;
     }
 
+    .header-content .emails{
+        margin-left: -50px;
+        width: 150%;
+    }
+
     .emails{
         height: 40px;
-        width: 350px
+        width: 100%
     }
 
     .emails button{
@@ -371,6 +376,14 @@ input[type="radio"]{
 
     .col{
         flex-basis: 25%;
+    }
+
+    .footer h2{
+        font-size: 16px;
+    }
+
+    .footer .col a{
+        font-size: 10px;
     }
 
 }
