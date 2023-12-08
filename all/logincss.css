@@ -266,7 +266,7 @@ input[type="radio"]{
 /*-------------------------------Media Query for Home Page------------------------------*/
 
 @media only screen and (max-width: 900px){
-
+    
     .logo{
         position: relative;
         padding: unset;
@@ -280,7 +280,7 @@ input[type="radio"]{
         margin: unset;
         padding: unset;
         margin-top: 30px;
-        margin-left: 20%;
+        margin-left: 50%;
         height: 30px;
         width: 70px;
         font-size: 10px;
@@ -292,20 +292,20 @@ input[type="radio"]{
         width: 90px;
         font-size: 10px;
         margin: unset;
-        align-self: flex-end;
         padding: unset;
         margin-top: 30px;
-        margin-left: 20%;
+        margin-left: 50%;
     }
 
     .header-content{
         top: 35%;
+        width: 100%;
     }
 
     .header-content h1{
-        font-size: 35px;
-        font-weight: 400;
-        line-height: 50px;
+        font-size: 30px;
+        font-weight: 100;
+        line-height: 40px;
     }
 
     .header-content h3{
@@ -314,13 +314,12 @@ input[type="radio"]{
     }
 
     .header-content .emails{
-        margin-left: -50px;
-        width: 150%;
+        margin-left: 20px;
     }
 
     .emails{
         height: 40px;
-        width: 100%
+        width: 90%
     }
 
     .emails button{
