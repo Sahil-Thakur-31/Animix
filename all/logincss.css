@@ -260,3 +260,117 @@ input[type="radio"]{
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
+
+/*---------------------@author : Sahil--------------------*/
+/*-------------------------------Media Query for Home Page------------------------------*/
+
+@media only screen and (max-width: 900px){
+
+    .logo{
+        position: relative;
+        padding: unset;
+        margin: unset;
+        height: 100px;
+        width: auto;
+    
+    }
+
+    .su{
+        margin: unset;
+        padding: unset;
+        margin-top: 30px;
+        margin-left: 70%;
+        height: 30px;
+        width: 70px;
+        font-size: 10px;
+        padding: 0 0;
+    }
+
+    .gh{
+        height: 30px;
+        width: 110px;
+        font-size: 10px;
+        margin: unset;
+        align-self: flex-end;
+        padding: unset;
+        margin-top: 30px;
+        margin-left: 50%;
+    }
+
+    .header-content{
+        top: 35%;
+    }
+
+    .header-content h1{
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 50px;
+    }
+
+    .header-content h3{
+        font-size: 18px;
+        padding-top: 18px;
+    }
+
+    .emails{
+        height: 40px;
+        width: 350px
+    }
+
+    .emails button{
+        width: 70px;
+        font-size: 12px;
+        padding-left: 18px;
+    }
+
+    .text-col, .img-col{
+        flex-basis: 100%;
+    }
+
+    .feature h2{
+        font-size: 30px;
+    }
+
+    .feature p{
+        font-size: 15px;
+    }
+
+    .row:nth-child(2), .row:nth-child(4){
+        flex-direction: column-reverse;
+    }
+
+    .row:nth-child(1), .row:nth-child(3){
+        flex-direction: column;
+    }
+
+    .faq h2{
+        font-size: 20px;
+    }
+
+    .accordion .content{
+        font-size: 14px;
+    }
+
+    .accordion li label{
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    label::after{
+        font-size: 22px;
+    }
+
+    .content p{
+        font-size: 14px;
+    }
+
+    .faq small{
+        font-size: 20px;
+    }
+
+    .col{
+        flex-basis: 25%;
+    }
+
+}
